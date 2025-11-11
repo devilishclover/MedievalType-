@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Shield background -->
+  <path d="M50 10 L75 25 L75 55 C75 70 50 85 50 85 C50 85 25 70 25 55 L25 25 Z" 
+        fill="#8B4513" stroke="#654321" stroke-width="2"/>
+  
+  <!-- Shield inner design -->
+  <path d="M50 15 L70 27 L70 52 C70 65 50 78 50 78 C50 78 30 65 30 52 L30 27 Z" 
+        fill="#DAA520" stroke="#B8860B" stroke-width="1"/>
+  
+  <!-- Sword -->
+  <rect x="48" y="20" width="4" height="35" fill="#C0C0C0"/>
+  <rect x="46" y="18" width="8" height="4" fill="#8B4513"/>
+  <circle cx="50" cy="20" r="2" fill="#FFD700"/>
+  
+  <!-- Cross guard -->
+  <rect x="42" y="33" width="16" height="2" fill="#C0C0C0"/>
+  
+  <!-- Letter 'T' for Type -->
+  <text x="50" y="68" font-family="serif" font-size="20" font-weight="bold" 
+        text-anchor="middle" fill="#2F4F4F">T</text>
+</svg>
