@@ -1,0 +1,8 @@
+.typing-test{
+    background: rgba(163, 180, 123, 0.482);
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    display: inline-block;
+}

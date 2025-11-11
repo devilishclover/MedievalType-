@@ -1,0 +1,27 @@
+body {
+    margin: 10px;
+    overflow: hidden;
+    background-color: #c9dc97;
+}
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    gap: 1rem;
+}
+
+.keyboard-container{
+    position: relative;
+    width: fit-content;
+    padding-left: 2px;
+}
+.keyboard-container img{
+    position: absolute;
+    left: -234px;
+    top: 0;
+    width: 234px;
+}

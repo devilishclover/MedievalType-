@@ -1,0 +1,12 @@
+.letter {
+    display: inline-block;
+    font-size: 1.5em;
+    color: #D4EECC;
+    min-width: 0.3em;
+    font-family: 'UnifrakturMaguntia', 'Blackletter', serif;
+}
+
+.letter.active {
+    color: #489331;
+    font-weight: bold;
+}
