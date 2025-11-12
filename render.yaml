@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: medievaltype
+    name: medievaltype-subpath
     env: static
     buildCommand: npm ci && npm run build
     staticPublishPath: ./dist
