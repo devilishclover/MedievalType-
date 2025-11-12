@@ -4,6 +4,8 @@ services:
     env: static
     buildCommand: npm ci && npm run build
     staticPublishPath: ./dist
+    customDomains:
+      - devilishclover.space
     routes:
       - type: rewrite
         source: /*
