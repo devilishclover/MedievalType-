@@ -12,8 +12,8 @@ function App() {
       <div className='keyboard-container'>
         <img src={guyImage} alt="guy" />
         <Keyboard />
-        <img src={guyImage} alt="guy" style={{transform: 'scaleX(-1)'}} />
         <Music medievalMusic={medievalMusic} />
+        <img src={guyImage} alt="guy" style={{transform: 'scaleX(-1)'}} />
         <p className="note">Note: If a letter appears not to be able to be typed, it is due to the font making certain characters difficult to understand. You'd better study up on your medieval fonts peasant!
         </p>
         
