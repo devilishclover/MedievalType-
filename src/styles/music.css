@@ -1,4 +1,4 @@
-.button {
+.play-button {
     border: 2px solid #000;
     border-radius: 10px;
     display: inline-block;
@@ -8,26 +8,18 @@
     background: rgba(163, 180, 123, 0.482);
     cursor: pointer;
     transition: all 0.1s ease;
-}
-
-.button p {
-    line-height: 50px;
-    margin: 0;
     font-weight: bold;
     font-family: 'UnifrakturMaguntia', 'Blackletter', serif;
 }
 
-.button.active {
+.play-button:hover {
+    background: rgba(140, 160, 100, 0.6);
+}
+
+.play-button:active {
+    transform: scale(0.95);
     width: 46px;
     height: 46px;
     background: rgba(100, 115, 65, 0.482);
     border: 4px solid #000;
-}
-
-.button:hover {
-    background: rgba(140, 160, 100, 0.6);
-}
-
-.button:active {
-    transform: scale(0.95);
 }
