@@ -1,6 +1,7 @@
 import Key from './Key.jsx' 
 import './styles/Keyboard.css'
 
+
 function Keyboard() {
 const keyNames = [
     ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0'],
