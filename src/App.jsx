@@ -7,7 +7,7 @@ import guyImage from './assets/guy.png'
 function App() {
   return (
     <div className="main">
-      <audio controls loop>
+      <audio controls autoPlay>
       <source src={medievalMusic} type="audio/mpeg" />
     </audio>
       <Typingtest />
