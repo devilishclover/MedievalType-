@@ -1,6 +1,6 @@
 import { useState } from "react"
 import Letter from "./Letter.jsx"
-import './Typingtest.css'
+import './styles/Typingtest.css'
 
 let handleKeyPressGlobal = null;
 

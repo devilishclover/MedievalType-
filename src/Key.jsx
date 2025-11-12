@@ -1,5 +1,5 @@
 import { useState } from "react"
-import './Key.css'
+import './styles/Key.css'
 
 
 function Key(props) {

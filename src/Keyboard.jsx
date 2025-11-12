@@ -1,5 +1,5 @@
 import Key from './Key.jsx' 
-import './Keyboard.css'
+import './styles/Keyboard.css'
 
 function Keyboard() {
 const keyNames = [
