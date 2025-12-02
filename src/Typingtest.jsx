@@ -219,6 +219,7 @@ function Typingtest() {
                     key={charObj.id} 
                     letter={charObj.letter}
                     pressed={charObj.id < currentLetter}
+                    current={charObj.id === currentLetter}
                 />
             ))}
         </div>

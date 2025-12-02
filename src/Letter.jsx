@@ -7,6 +7,9 @@ function Letter(props) {
     if (props.pressed) {
         className += ' active';
     }
+    if (props.current) {
+        className += ' current';
+    }
     
     return (
         <span className={className}>
