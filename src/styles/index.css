@@ -21,9 +21,9 @@ body {
 }
 .keyboard-container img{
     position: absolute;
-    left: -234px;
+    left: -350px;
     top: 0;
-    width: 234px;
+    width: 350px;
 }
 
 .keyboard-container img[style*="scaleX(-1)"] {
